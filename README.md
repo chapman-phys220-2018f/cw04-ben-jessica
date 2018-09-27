@@ -28,7 +28,7 @@ Complete the following exercises, saving your solutions in the indicated files. 
 
 Analyze in this section what you found useful about this assignment in your own words. Include any lingering questions or comments that you may have. You can use the GitHub web interface to edit this file directly for now.
 
-**CHANGEME**
+**The number of changes I made to my primes file was kind of dissatisfying however, when I finished I felt a lot better about how it came out**
 
 ## Honor Pledge
 

@@ -2,6 +2,19 @@
 # -*- coding: utf-8 -*-
 
 import primes
+# Jessica Trawick
+# trawick@chapman.edu
+# 2300326
+# Phys 220
+# Cw04
+
+###
+# Name: Benjamin Seeley
+# Student ID: 2262810
+# Email: seele105@mail.chapman.edu
+# Course: PHYS220/MATH220/CPSC220 Fall 2018
+# Assignment: CW03
+###
 
 """primes.py Test Module
 
@@ -14,7 +27,7 @@ Here are the primes less than n=200 for completeness:
  151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199
 """
 
-def test_eratosthenes_last():
+def eratosthenes_last():
     """Verify the largest prime number under 200.
     
     Note: The equality test for the assert here only works because the
@@ -24,12 +37,22 @@ def test_eratosthenes_last():
     """
     assert primes.eratosthenes(200)[-1] == 199
 
-def test_eratosthenes_number():
+def eratosthenes(n):
     """Verify the number of primes less than 200.
     """
+    primes = []
+    for primes in range(1,n):
+        primes.append(i)
+    for i in primes:
+        for n in primes:
+            if prime(n)// i= 0:
+                primes.pop(n)
+                
     assert len(primes.eratosthenes(200)) == 46
+    print primes
+    return primes
     
-def test_gen_eratosthenes_last():
+def gen_eratosthenes_last():
     """Verify the largest prime number under 200.
     """
     g = primes.gen_eratosthenes()
@@ -39,7 +62,7 @@ def test_gen_eratosthenes_last():
         p, p2 = p2, next(g)
     assert p == 199
 
-def test_gen_eratosthenes_number():
+def gen_eratosthenes(n):
     """Verify the number of primes less than 200.
     """
     g = primes.gen_eratosthenes()
@@ -49,3 +72,4 @@ def test_gen_eratosthenes_number():
     assert len(ps[:-1]) == 46
 
     
+

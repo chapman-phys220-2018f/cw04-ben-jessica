@@ -1,0 +1,10 @@
+{"type":"cell","id":"0066c5","pos":0,"input":"**Jessica Trawick**","cell_type":"markdown"}
+{"type":"cell","id":"128b3c","pos":1,"input":"**Sieve of Eratothenes**\nThe idea is to create a list of all numbers and check all to see if they are divisible by any number other than itself and zero. In this we cut any number that is found as not prime. We do this in our code by starting with a list with 2 in it. Then we add numbers to the list. Then a new function checks the numbers to see if they are divisible by anything. Then a new function calls on the last number in the list and reads it back.","cell_type":"markdown"}
+{"type":"cell","id":"421def","pos":2,"input":"import primes.py\nprimes.eratosthenes(20)\n","cell_type":"code","exec_count":0}
+{"type":"cell","id":"a40197","pos":3,"input":"**Benchmarking Implementations**","cell_type":"markdown"}
+{"type":"cell","id":"a4149a","pos":4,"input":"import primes\n%time primes.eratosthenes(1000)"}
+{"type":"cell","id":"b51d61","pos":6,"input":"** Generating Prime Numbers**\nThis design helps eliminate the numbers that are nto prime and work over every factor."}
+{"type":"cell","id":"dde990","pos":7,"input":"def eratosthenes(n):\n    \"\"\"Verify the number of primes less than 200.\n    \"\"\"\n    primes = []\n    for primes in range(1,n):\n        primes.append(i)\n    for i in primes:\n        for n in primes:\n            if prime(n)// i= 0:\n                primes.pop(n)"}
+{"type":"cell","id":"e58093","pos":5,"input":"import primes\n%time primes.eratosthenes(1000)"}
+{"type":"file","last_load":1538024166591}
+{"type":"settings","backend_state":"running","trust":true,"kernel":"anaconda5","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":75366400}}
